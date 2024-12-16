@@ -1,0 +1,91 @@
+# Python 缓存文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 环境文件
+.env
+*.env
+
+# 虚拟环境
+venv/
+.env/
+.virtualenv/
+
+# 分发/打包
+*.egg-info/
+dist/
+build/
+*.egg
+.eggs/
+
+# 日志文件
+*.log
+*.out
+*.err
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# IDE 配置文件
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# 测试输出
+.coverage
+htmlcov/
+*.cover
+*.coverage.*
+.cache
+.tox/
+.nox/
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# Python bytecode
+*.pyo
+
+# Cython 编译文件
+*.c
+*.so
+
+# MyPy 类型检查缓存
+.mypy_cache/
+
+# Pyre 类型检查缓存
+.pyre/
+
+# Pyright 类型检查缓存
+pyrightcache/
+
+# pipenv, poetry
+Pipfile.lock
+poetry.lock
+
+# 临时文件
+*.tmp
+*.swp
+*.bak
+*.orig
+*.~*
+
+# 文件类型黑名单
+*.sqlite3
+*.db
+*.mp4
+*.avi
+*.mov
+*.mp3
+*.zip
+*.tar
+*.gz
+*.7z
+*.rar
+*.sql
+
+# 项目相关
+save/
